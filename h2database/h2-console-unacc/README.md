@@ -1,6 +1,6 @@
 # H2 Database Web Console Unauthorized Access
 
-[中文版本（Chinese Version）](README.zh-cn.md)
+[中文版本(Chinese version)](README.zh-cn.md)
 
 H2 database is a embedded in-memory database in Java. Springboot with h2 database comes with a web management page which has no authentication if you set the following options:
 
@@ -20,7 +20,7 @@ References:
 Start a spring-boot with h2 database and embedded tomcat:
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 After started the container, the spring-boot is listening on `http://your-ip:8080`, the management page is `http://your-ip:8080/h2-console/` by default.

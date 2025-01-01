@@ -1,6 +1,6 @@
 # Grafana Admin Portal SSRF
 
-[中文版本（Chinese Version）](README.zh-cn.md)
+[中文版本(Chinese version)](README.zh-cn.md)
 
 Grafana is a multi-platform open source analytics and interactive visualization web application.
 
@@ -15,7 +15,7 @@ References:
 Execute following command to start a Grafana 8.5.4:
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 Then you can see the portal page for Grafana without the authentication in `http://your-ip:3000`, because this server enabled the anonymous as admins by:
